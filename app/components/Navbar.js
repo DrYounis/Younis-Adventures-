@@ -17,7 +17,7 @@ export default function Navbar() {
             backdropFilter: 'blur(12px)',
             zIndex: 1000,
             borderBottom: '1px solid rgba(0,0,0,0.05)',
-            height: '80px',
+            height: '120px',
             display: 'flex',
             alignItems: 'center',
             boxShadow: '0 2px 10px rgba(0,0,0,0.05)',
@@ -29,9 +29,9 @@ export default function Navbar() {
             width: '100%',
         },
         logo: {
-            fontSize: '1.5rem',
+            fontSize: '3rem',
             fontWeight: '800',
-            color: 'var(--color-primary)', // Blue Logo
+            color: '#000080', // Navy Blue
         },
         links: {
             display: 'flex',
@@ -44,7 +44,7 @@ export default function Navbar() {
         },
         mobileMenu: {
             position: 'absolute',
-            top: '80px',
+            top: '120px',
             left: 0,
             right: 0,
             background: 'white',
