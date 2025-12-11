@@ -59,7 +59,8 @@ export default function Navbar() {
             display: 'none',
             background: 'none',
             border: 'none',
-            color: 'var(--color-primary)',
+            color: '#000080', // Navy Blue
+
             fontSize: '1.5rem',
             cursor: 'pointer',
         }
