@@ -35,11 +35,11 @@ export default function Gallery() {
     };
 
     const photos = [
-        { src: '/gallery/younis-miner.jpg', caption: 'Happy Miner: Found Diamonds! 💎' },
-        { src: '/gallery/younis-thumbsup.jpg', caption: 'Crafting Success! 👍' },
-        { src: '/gallery/younis-ride.jpg', caption: 'Minecart Adventure 🎢' },
-        { src: '/gallery/younis-duo.jpg', caption: 'Multiplayer Mode 🎮' },
-        { src: '/gallery/younis-explorer.jpg', caption: 'Exploring the Overworld 🌲' },
+        { src: 'https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?auto=format&fit=crop&w=800&q=80', caption: 'Happy Miner: Found Diamonds! 💎' },
+        { src: 'https://images.unsplash.com/photo-1627856014759-085296122d13?auto=format&fit=crop&w=800&q=80', caption: 'Crafting Success! 👍' },
+        { src: 'https://images.unsplash.com/photo-1544733422-251e532ca20d?auto=format&fit=crop&w=800&q=80', caption: 'Minecart Adventure 🎢' },
+        { src: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80', caption: 'Multiplayer Mode 🎮' },
+        { src: 'https://images.unsplash.com/photo-1478720568477-152d9b164e63?auto=format&fit=crop&w=800&q=80', caption: 'Exploring the Overworld 🌲' },
     ];
 
     return (

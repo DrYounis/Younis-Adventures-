@@ -66,8 +66,6 @@ export default function Home() {
 
     return (
         <div>
-            <Hero />
-
             {/* New Welcome Section with Personal Photo */}
             <section style={{ padding: '0 1.5rem' }}>
                 <div className="container" style={styles.welcomeSection}>
@@ -105,6 +103,8 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            <Hero />
 
             {/* Latest Videos Preview */}
             <section style={styles.section} className="container">
