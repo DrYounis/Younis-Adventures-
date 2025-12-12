@@ -8,4 +8,9 @@ if (!supabaseUrl || !supabaseAnonKey) {
     console.warn('Missing Supabase environment variables. Please check your .env.local file.')
 }
 
-export const supabase = createClient(supabaseUrl || '', supabaseAnonKey || '')
+// Fallback values allow the build to pass even if env vars are missing (e.g. during static build)
+// The app will verify connection at runtime
+export const supabase = createClient(
+    supabaseUrl || 'https://placeholder.supabase.co',
+    supabaseAnonKey || 'placeholder-key'
+)
